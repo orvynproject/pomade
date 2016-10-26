@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pomade Store</title>
+		<link rel="stylesheet" href="assets/front/plugins/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/front/plugins/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/front/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="assets/front/plugins/owl-carousel/owl-carousel/owl.theme.css">
+		<link rel="stylesheet" href="assets/front/plugins/animate.css/animate.min.css">
+		<link rel="stylesheet" href="assets/front/css/main.css">
+	</head>
+	<body>
+		
+		<header class="top-header" style="background-image: url('images/bg.jpg');">
+			<div class="container-fluid">
+				<div class="nav-toggle">
+					<a href="javascript:void(0)"><i class="fa fa-bars fa-2x"></i></a>
+				</div>
+				<div class="cart-toggle">
+					<a href="javascript:void(0)"><i class="fa fa-shopping-cart fa-2x"></i>
+						<span class="badge">3</span>
+					</a>
+				</div>
+				<div class="search-toggle">
+					<a href="javascript:void(0)"><i class="fa fa-search fa-2x"></i></a>
+				</div>
+			</div>
+			<div class="caption">
+				<h1 class="title">Pomade Store</h1>
+				<p class="lead">Pomade store since 2012</p>
+			</div>
+		</header>
+
+		<nav>
+			<ul>
+				<li class="brand">
+					<img src="images/logo.png" class="img-responsive" alt="Image">
+				</li>
+				<br>
+				<li><a href="index.html" class="active">HOME</a></li>
+				<li><a href="product.html" class="">PRODUCT</a></li>
+				<li><a href="contact.html" class="">CONTACT</a></li>
+				<li><a href="login.html" class=""><i class="fa fa-lock"></i> LOGIN</a></li>
+			</ul>
+			<div class="nav-toggle-close">
+				<a href="javascript:void(0)"><i class="fa fa-times fa-2x"></i></a>
+			</div>
+		</nav>
+
+		<div class="search-form">
+			<div class="search-toggle-close">
+				<a href="javascript:void(0)"><i class="fa fa-times fa-2x"></i></a>
+			</div>
+			<form>
+				<input type="text" name="keyword" placeholder="Type something...">
+			</form>
+		</div>
+
+		<section id="about" class="black-themes text-center">
+			<div class="container">
+				<img src="images/logo.png" class="img-responsive">
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+			</div>
+		</section>
+
+		<section id="product">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-3 white-themes">
+						<div class="meta">
+							<h4><b>Base</b></h4>
+							<hr>
+							<ul>
+								<li><a href="javascript:void(0)">Oil (100)</a></li>
+								<li><a href="javascript:void(0)">Water (90)</a></li>
+							</ul>
+						</div>
+						<div class="meta">
+							<h4><b>Hold</b></h4>
+							<hr>
+							<ul>
+								<li><a href="javascript:void(0)">Light (37)</a></li>
+								<li><a href="javascript:void(0)">Medium (77)</a></li>
+								<li><a href="javascript:void(0)">Strong (100)</a></li>
+							</ul>
+						</div>
+						<div class="meta">
+							<h4><b>Manufacturer</b></h4>
+							<hr>
+							<ul>
+								<li><a href="javascript:void(0)">American Gentleman Soap Co (3)</a></li>
+								<li><a href="javascript:void(0)">American Pomade (3)</a></li>
+								<li><a href="javascript:void(0)">Anchors Hair Company (3)</a></li>
+								<li><a href="javascript:void(0)">Baxter of California (3)</a></li>
+								<li><a href="javascript:void(0)">Beever (1)</a></li>
+								<li><a href="javascript:void(0)">Benny's Haircut (1)</a></li>
+								<li><a href="javascript:void(0)">Big Slick (2)</a></li>
+								<li><a href="javascript:void(0)">Billy Jealousy (2)</a></li>
+								<li><a href="javascript:void(0)">Black and White (4)</a></li>
+								<li><a href="javascript:void(0)">Bona Fide (2)</a></li>
+								<li><a href="javascript:void(0)">Boulevard Nights (1)</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-9">
+						<h4><b>Product</b></h4>
+						<hr>
+						<div class="row">
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/1.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/2.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/3.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/4.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/5.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/6.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="row inner text-center">
+							<div class="col-xs-12">
+								<a href="product.html">All Product &rarr;</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="brands">
+			<div class="container-fluid">
+				<div id="brand-carousel" class="owl-carousel owl-theme">
+					<div class="item">
+						<img src="images/brand/1.png" class="img-responsive">
+					</div>
+					<div class="item">
+						<img src="images/brand/2.png" class="img-responsive">
+					</div>
+					<div class="item">
+						<img src="images/brand/1.png" class="img-responsive">
+					</div>
+					<div class="item">
+						<img src="images/brand/2.png" class="img-responsive">
+					</div>
+					<div class="item">
+						<img src="images/brand/1.png" class="img-responsive">
+					</div>
+					<div class="item">
+						<img src="images/brand/2.png" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="modal-load-cart">
+			<div class="container">
+				<div class="white-themes">
+					<h3>
+						<span>TOTAL &rarr;</span>
+						<span class="pull-right"><b>IDR 450,000</b></span>
+					</h3>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/product/1.jpg" class="img-responsive">
+						<p class="text-center">Disc : 10 %</p>
+					</div>
+					<div class="col-sm-8">
+						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+						<p><span>Qty : </span><b>1</b> item(s)</p>
+						<p><span>Total : </span><b>IDR 150,000</b></p>
+						<p></p>
+					</div>
+					<div class="col-sm-2">
+						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
+					</div>
+				</div>	
+				<hr>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/product/2.jpg" class="img-responsive">
+						<p class="text-center">Disc : 10 %</p>
+					</div>
+					<div class="col-sm-8">
+						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+						<p><span>Qty : </span><b>1</b> item(s)</p>
+						<p><span>Total : </span><b>IDR 150,000</b></p>
+						<p></p>
+					</div>
+					<div class="col-sm-2">
+						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
+					</div>
+				</div>	
+				<hr>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/product/3.jpg" class="img-responsive">
+						<p class="text-center">Disc : 10 %</p>
+					</div>
+					<div class="col-sm-8">
+						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+						<p><span>Qty : </span><b>1</b> item(s)</p>
+						<p><span>Total : </span><b>IDR 150,000</b></p>
+						<p></p>
+					</div>
+					<div class="col-sm-2">
+						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
+					</div>
+				</div>	
+				<hr>
+				<div class="row">
+					<div class="col-sm-6">
+						<a href="javascript:void(0)" class="btn btn-lg btn-flat btn-block btn-default black-themes"><i class="fa fa-trash"></i> Empty Cart</a>
+					</div>
+					<div class="col-sm-6">
+						<a href="checkout.html" class="btn btn-lg btn-flat btn-block btn-default black-themes"><i class="fa fa-check-circle"></i> Checkout</a>
+					</div>
+				</div>
+			</div>
+			<div class="cart-toggle-close">
+				<a href="javascript:void(0)"><i class="fa fa-times fa-2x"></i></a>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modal-product-detail">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Detail Product</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="images/product/1.jpg" class="img-responsive">
+								<p class="text-center">Disc : 10 %</p>
+							</div>
+							<div class="col-sm-8">
+								<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+								<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+								<p><span>Base : </span><b>Oil</b></p>
+								<p><span>Hold : </span><b>Strong</b></p>
+								<p><span>Manufacturer : </span><b>American Gentleman Soap Co</b></p>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default btn-flat" data-dismiss="modal"><i class="fa fa-times-circle"></i> Close</button>
+						<button onclick="$('#modal-product-detail').modal('hide');loadCart()" type="button" class="btn btn-default btn-flat black-themes pull-left"><i class="fa fa-shopping-cart"></i> Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container-fluid">
+				<p>
+					<span>&copy; 2016 <span class="title">Pomade Store</span>.</span>
+					<span>All rights reserved.</span>
+					<span class="pull-right">Site by <a href="javascript:void(0)" target="_blank">ORVYN PROJECT</a></span>
+				</p>
+			</div>
+		</footer>
+
+		<script src="assets/front/plugins/jquery/dist/jquery.min.js"></script>
+		<script src="assets/front/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/front/plugins/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/front/js/main.js"></script>
+	</body>
+</html>

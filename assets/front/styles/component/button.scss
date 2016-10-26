@@ -1,0 +1,7 @@
+.btn-flat {
+	@include border-radius(0);
+}
+
+.btn {
+	@include transition(.5s);
+}

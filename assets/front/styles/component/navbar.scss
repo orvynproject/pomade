@@ -1,0 +1,115 @@
+.nav-toggle {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	a {
+		i {
+			color: $gray;
+		}
+	}
+}
+.cart-toggle {
+	position: fixed;
+	top: 15px;
+	left: 50px;
+	a {
+		i {
+			color: $gray;
+		}
+	}
+}
+.search-toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	a {
+		i {
+			color: $gray;
+		}
+	}
+}
+
+nav {
+	@extend .fixed;
+	ul {
+		position: absolute;
+		list-style-type: none;
+		padding: 0;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		line-height: 50px;
+		li {
+			display: block;
+			text-align: center;
+			a {
+				color: $gray;
+				font-size: 24px;
+			}
+		}
+	}
+	.nav-toggle-close {
+		@extend .nav-toggle;
+		a {
+			i {
+				color: $gray;
+			}
+		}
+	}
+}
+
+.search-form {
+	@extend .fixed;
+	input {
+		position: absolute;
+		list-style-type: none;
+		padding: 10px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		line-height: 20px;
+		background-color: $black;
+		color: $white;
+	}
+	.search-toggle-close {
+		@extend .search-toggle;
+		a {
+			i {
+				color: $gray;
+			}
+		}
+	}
+}
+
+.modal-load-cart {
+	@extend .fixed;
+	.container {
+		position: absolute;
+		list-style-type: none;
+		padding: 15px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: $white;
+		color: $black;
+		width: 90%;
+		max-height: 90%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		a {
+			&:focus,
+			&:hover {
+				color: $black;
+			}
+		}
+	}
+	.cart-toggle-close {
+		@extend .nav-toggle;
+		left: 50px;
+		a {
+			i {
+				color: $gray;
+			}
+		}
+	}
+}
