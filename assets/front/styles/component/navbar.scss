@@ -68,12 +68,12 @@ nav {
 .search-form {
 	@extend .fixed;
 	input {
-		position: absolute;
+		position: relative;
 		list-style-type: none;
 		padding: 10px;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, 50%);
 		line-height: 20px;
 		background-color: $black;
 		color: $white;
