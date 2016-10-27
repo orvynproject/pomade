@@ -30,5 +30,6 @@ $(function() {
 });
 
 function loadCart() {
+	$('#modal-product-detail').modal('hide');
 	$('#modal-load-cart').modal('show');
 }
