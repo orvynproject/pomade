@@ -69,12 +69,10 @@ nav {
 	@extend .fixed;
 	input {
 		position: absolute;
-		list-style-type: none;
-		padding: 10px;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, 50%);
-		background-color: $black;
+		padding: 5px;
+		top: 20px;
+		right: 50px;
+		background-color: $black-light;
 		color: $white;
 	}
 	.search-toggle-close {

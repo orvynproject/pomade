@@ -72,12 +72,10 @@ nav .nav-toggle-close a i {
 
 .search-form input {
   position: absolute;
-  list-style-type: none;
-  padding: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  background-color: #000000;
+  padding: 5px;
+  top: 20px;
+  right: 50px;
+  background-color: #222222;
   color: #ffffff; }
 .search-form .search-toggle-close a i {
   color: #999999; }
