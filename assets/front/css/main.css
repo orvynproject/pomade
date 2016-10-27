@@ -46,15 +46,14 @@
     color: #999999; }
 
 nav ul {
-  position: absolute;
+  position: relative;
+  width: 100%;
   list-style-type: none;
   padding: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  line-height: 50px;
-  width: 100%;
-  background-color: #222222; }
+  line-height: 50px; }
   nav ul li {
     display: block;
     text-align: center; }
