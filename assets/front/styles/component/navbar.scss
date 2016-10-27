@@ -67,6 +67,7 @@ nav {
 
 .search-form {
 	@extend .fixed;
+	height: 80px!important;
 	input {
 		position: absolute;
 		padding: 5px;

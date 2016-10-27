@@ -70,15 +70,17 @@ nav ul {
 nav .nav-toggle-close a i {
   color: #999999; }
 
-.search-form input {
-  position: absolute;
-  padding: 5px;
-  top: 20px;
-  right: 50px;
-  background-color: #222222;
-  color: #ffffff; }
-.search-form .search-toggle-close a i {
-  color: #999999; }
+.search-form {
+  height: 80px !important; }
+  .search-form input {
+    position: absolute;
+    padding: 5px;
+    top: 20px;
+    right: 50px;
+    background-color: #222222;
+    color: #ffffff; }
+  .search-form .search-toggle-close a i {
+    color: #999999; }
 
 .modal-load-cart .container {
   position: absolute;
