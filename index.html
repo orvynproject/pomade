@@ -20,7 +20,7 @@
 					<a href="javascript:void(0)"><i class="fa fa-bars fa-2x"></i></a>
 				</div>
 				<div class="cart-toggle">
-					<a href="javascript:void(0)"><i class="fa fa-shopping-cart fa-2x"></i>
+					<a data-toggle="modal" href='#modal-load-cart'><i class="fa fa-shopping-cart fa-2x"></i>
 						<span class="badge">3</span>
 					</a>
 				</div>
@@ -262,77 +262,69 @@
 			</div>
 		</section>
 
-		<div class="modal-load-cart">
-			<div class="container">
-				<div class="white-themes">
-					<h3>
-						<span>TOTAL &rarr;</span>
-						<span class="pull-right"><b>IDR 450,000</b></span>
-					</h3>
-				</div>
-				<hr>
-				<div class="row">
-					<div class="col-sm-2">
-						<img src="images/product/1.jpg" class="img-responsive">
-						<p class="text-center">Disc : 10 %</p>
+		<div class="modal fade" id="modal-load-cart">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"><i class="fa fa-shopping-cart"></i> Cart</h4>
 					</div>
-					<div class="col-sm-8">
-						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
-						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
-						<p><span>Qty : </span><b>1</b> item(s)</p>
-						<p><span>Total : </span><b>IDR 150,000</b></p>
-						<p></p>
+					<div class="modal-body">
+						<div class="white-themes">
+							<h4>
+								<span>TOTAL &rarr;</span>
+								<span class="pull-right"><b>IDR 450,000</b></span>
+							</h4>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="images/product/1.jpg" class="img-responsive">
+								<p class="text-center">Disc : 10 %</p>
+							</div>
+							<div class="col-sm-8">
+								<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+								<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+								<p><span>Qty : </span><b>1</b> item(s)</p>
+								<p><span>Total : </span><b>IDR 150,000</b></p>
+								<p><a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a></p>
+							</div>
+						</div>	
+						<hr>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="images/product/2.jpg" class="img-responsive">
+								<p class="text-center">Disc : 10 %</p>
+							</div>
+							<div class="col-sm-8">
+								<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+								<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+								<p><span>Qty : </span><b>1</b> item(s)</p>
+								<p><span>Total : </span><b>IDR 150,000</b></p>
+								<p><a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a></p>
+							</div>
+						</div>	
+						<hr>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="images/product/3.jpg" class="img-responsive">
+								<p class="text-center">Disc : 10 %</p>
+							</div>
+							<div class="col-sm-8">
+								<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
+								<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
+								<p><span>Qty : </span><b>1</b> item(s)</p>
+								<p><span>Total : </span><b>IDR 150,000</b></p>
+								<p><a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a></p>
+							</div>
+						</div>	
+						<hr>
 					</div>
-					<div class="col-sm-2">
-						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
-					</div>
-				</div>	
-				<hr>
-				<div class="row">
-					<div class="col-sm-2">
-						<img src="images/product/2.jpg" class="img-responsive">
-						<p class="text-center">Disc : 10 %</p>
-					</div>
-					<div class="col-sm-8">
-						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
-						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
-						<p><span>Qty : </span><b>1</b> item(s)</p>
-						<p><span>Total : </span><b>IDR 150,000</b></p>
-						<p></p>
-					</div>
-					<div class="col-sm-2">
-						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
-					</div>
-				</div>	
-				<hr>
-				<div class="row">
-					<div class="col-sm-2">
-						<img src="images/product/3.jpg" class="img-responsive">
-						<p class="text-center">Disc : 10 %</p>
-					</div>
-					<div class="col-sm-8">
-						<p><span>Product Name : </span><b>American Gentleman Soap Co Pomade Heavy</b></p>
-						<p><span>Price : </span><s>IDR 156,000</s> <b>IDR 150,000</b></p>
-						<p><span>Qty : </span><b>1</b> item(s)</p>
-						<p><span>Total : </span><b>IDR 150,000</b></p>
-						<p></p>
-					</div>
-					<div class="col-sm-2">
-						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes"><i class="fa fa-times-circle"></i> Delete</a>
-					</div>
-				</div>	
-				<hr>
-				<div class="row">
-					<div class="col-sm-6">
-						<a href="javascript:void(0)" class="btn btn-lg btn-flat btn-block btn-default black-themes"><i class="fa fa-trash"></i> Empty Cart</a>
-					</div>
-					<div class="col-sm-6">
-						<a href="checkout.html" class="btn btn-lg btn-flat btn-block btn-default black-themes"><i class="fa fa-check-circle"></i> Checkout</a>
+					<div class="modal-footer">
+						<a href="javascript:void(0)" class="btn btn-sm btn-flat btn-default black-themes pull-left"><i class="fa fa-trash"></i> Empty Cart</a>
+						<a href="checkout.html" class="btn btn-sm btn-flat btn-default black-themes">Checkout &rarr;</a>
 					</div>
 				</div>
-			</div>
-			<div class="cart-toggle-close">
-				<a href="javascript:void(0)"><i class="fa fa-times fa-2x"></i></a>
 			</div>
 		</div>
 

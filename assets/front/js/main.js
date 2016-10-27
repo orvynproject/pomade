@@ -19,16 +19,6 @@ $(function() {
 		$('.search-form').slideUp();
 	});
 
-	//---CART---
-	$('.cart-toggle > a').click(function(event) {
-		event.preventDefault();
-		$('.modal-load-cart').slideDown();
-	});
-	$('.cart-toggle-close > a').click(function(event) {
-		event.preventDefault();
-		$('.modal-load-cart').slideUp();
-	});
-
 	//---CAROUSEL---
 	$("#brand-carousel").owlCarousel({
 		autoPlay : 2000,
@@ -40,5 +30,5 @@ $(function() {
 });
 
 function loadCart() {
-	$('.modal-load-cart').slideDown();
+	$('#modal-load-cart').modal('show');
 }
