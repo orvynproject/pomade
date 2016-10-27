@@ -176,3 +176,31 @@ section#product {
 input.form-control {
 	@include border-radius(0);
 }
+
+section#member {
+	p {
+		color: $black;
+	}
+	.table {
+		tr {
+			color: $black;
+		}
+	}
+}
+
+.nav-pills {
+	li {
+		a {
+			@include border-radius(0);
+			background-color: #eee;
+		}
+	}
+	li.active {
+		a {
+			background-color: $black;
+			&:focus, &:hover {
+				background-color: $black;
+			}
+		}
+	}
+}

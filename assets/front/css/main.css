@@ -257,6 +257,22 @@ input.form-control {
   -ms-border-radius: 0;
   border-radius: 0; }
 
+section#member p {
+  color: #000000; }
+section#member .table tr {
+  color: #000000; }
+
+.nav-pills li a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background-color: #eee; }
+.nav-pills li.active a {
+  background-color: #000000; }
+  .nav-pills li.active a:focus, .nav-pills li.active a:hover {
+    background-color: #000000; }
+
 .btn-flat {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

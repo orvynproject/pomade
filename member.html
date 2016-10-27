@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Checkout - Pomade Store</title>
+		<title>Member - Pomade Store</title>
 		<link rel="stylesheet" href="assets/front/plugins/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/front/plugins/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/front/plugins/owl-carousel/owl-carousel/owl.carousel.css">
@@ -38,7 +38,7 @@
 				<br>
 				<li><a href="index.html" class="">HOME</a></li>
 				<li><a href="product.html" class="">PRODUCT</a></li>
-				<li><a href="contact.html" class="">CONTACT</a></li>
+				<li><a href="contact.html" class="active">CONTACT</a></li>
 				<li><a href="login.html" class=""><i class="fa fa-lock"></i> LOGIN</a></li>
 			</ul>
 			<div class="nav-toggle-close">
@@ -64,72 +64,99 @@
 			</div>
 		</section>
 
-		<section id="login">
+		<section id="member">
 			<div class="container">
-				<div class="row inner">
-					<div class="col-sm-12">
-						<p class="lead">Checkout</p>
-						<hr>
-						<div class="table-responsive">
-							<table class="table table-bordered">
-								<thead>
-									<tr>
-										<th>Thumb</th>
-										<th>Product</th>
-										<th>Price</th>
-										<th>Qty</th>
-										<th>Subtotal</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><img src="images/product/1.jpg" class="img-responsive" width="75px"></td>
-										<td>American Gentleman Soap Co Pomade Heavy</td>
-										<td>IDR 150,000</td>
-										<td>1 item(s)</td>
-										<td>IDR 150,000</td>
-									</tr>
-									<tr>
-										<td><img src="images/product/2.jpg" class="img-responsive" width="75px"></td>
-										<td>American Gentleman Soap Co Pomade Heavy</td>
-										<td>IDR 150,000</td>
-										<td>1 item(s)</td>
-										<td>IDR 150,000</td>
-									</tr>
-									<tr>
-										<td><img src="images/product/3.jpg" class="img-responsive" width="75px"></td>
-										<td>American Gentleman Soap Co Pomade Heavy</td>
-										<td>IDR 150,000</td>
-										<td>1 item(s)</td>
-										<td>IDR 150,000</td>
-									</tr>
-								</tbody>
-							</table>
+				<div class="row">
+					<div class="col-sm-3">
+						<div role="tabpanel">
+							<ul class="nav nav-pills nav-stacked" role="tablist">
+								<li role="presentation" class="">
+									<a href="#dashboard" aria-controls="dashboard" role="tab" data-toggle="tab"><i class="fa fa-dashboard"></i> Dashboard</a>
+								</li>
+								<li role="presentation" class="active">
+									<a href="#orders" aria-controls="orders" role="tab" data-toggle="tab"><i class="fa fa-shopping-cart"></i> Orders</a>
+								</li>
+								<li role="presentation" class="">
+									<a href="login.html" aria-controls="logout" role="tab"><i class="fa fa-sign-out"></i> Logout</a>
+								</li>
+							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="row inner">
-					<div class="col-sm-8"></div>
-					<div class="col-sm-4">
-						<form action="member.html" method="post">
-							<p class="lead">Checkout</p>
-							<hr>
-							<p>
-								<b>Subtotal : </b> <span class="pull-right">IDR 450,000</span>
-							</p>
-							<p>
-								<b>Ongkir : </b> <span class="pull-right">IDR 20,000</span>
-							</p><br>
-							<p>
-								<b>Total : <span class="pull-right">&rarr; IDR 470,000</span></b>
-							</p>
-							<hr>
-							<p class="lead">Cek Ongkir !</p>
-							<div data-theme="light" id="rajaongkir-widget"></div>
-							<hr>
-							<a href="product.html" class="btn btn-flat btn-default black-themes">&larr; Shop</a>
-							<button type="submit" class="btn btn-flat btn-default black-themes pull-right">Process &rarr;</button>
-						</form>
+					<div class="col-sm-9">
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane" id="dashboard">
+								<p class="lead"><i class="fa fa-user"></i> Your account</p>
+								<div class="table-responsive">
+									<table class="table table-hover">
+										<tr>
+											<th>ID</th>
+											<th>:</th>
+											<td>1</td>
+										</tr>
+										<tr>
+											<th>First Name</th>
+											<th>:</th>
+											<td>John</td>
+										</tr>
+										<tr>
+											<th>Last Name</th>
+											<th>:</th>
+											<td>Legend</td>
+										</tr>
+										<tr>
+											<th><i class="fa fa-envelope"></i> Email</th>
+											<th>:</th>
+											<td>jognlegend@gmail.com</td>
+										</tr>
+										<tr>
+											<th><i class="fa fa-phone"></i> Phone</th>
+											<th>:</th>
+											<td>087858707816</td>
+										</tr>
+									</table>
+								</div>
+								<button type="button" class="btn btn-flat btn-default black-themes"><i class="fa fa-pencil"></i> Edit</button>
+							</div>
+							<div role="tabpanel" class="tab-pane active" id="orders">
+								<p class="lead"><i class="fa fa-shopping-cart"></i> Your account</p>
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover">
+										<thead>
+											<tr>
+												<th>OrderID</th>
+												<th>Qty</th>
+												<th>Subtotal</th>
+												<th>Status</th>
+												<th>Payment</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>3 item(s)</td>
+												<td>IDR 450,000</td>
+												<td>On Verification</td>
+												<td><a href="">&rarr; Confirm</a></td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>2 item(s)</td>
+												<td>IDR 300,000</td>
+												<td>Finish</td>
+												<td><a href="">&rarr; Confirm</a></td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>1 item(s)</td>
+												<td>IDR 150,000</td>
+												<td>Finish</td>
+												<td><a href="">&rarr; Confirm</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -269,7 +296,6 @@
 		<script src="assets/front/plugins/jquery/dist/jquery.min.js"></script>
 		<script src="assets/front/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="assets/front/plugins/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="//rajaongkir.com/script/widget.js"></script>
 		<script src="assets/front/js/main.js"></script>
 	</body>
 </html>
