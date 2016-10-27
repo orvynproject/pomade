@@ -39,12 +39,20 @@ nav {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		line-height: 50px;
+		width: 100%;
+		background-color: $black-light;
 		li {
 			display: block;
 			text-align: center;
 			a {
 				color: $gray;
 				font-size: 24px;
+			}
+		}
+		.brand {
+			text-align: center;
+			img {
+				display: initial;
 			}
 		}
 	}

@@ -31,7 +31,7 @@ $(function() {
 
 	//---CAROUSEL---
 	$("#brand-carousel").owlCarousel({
-		autoPlay : 1000,
+		autoPlay : 2000,
 		stopOnHover : true,
 		items : 4,
 		itemsDesktop : [1199,4],

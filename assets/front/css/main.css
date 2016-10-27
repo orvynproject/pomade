@@ -18,6 +18,12 @@
     bottom: 0;
     padding: 20px; }
 
+.inner-header {
+  background-color: #000000;
+  height: 65px;
+  position: relative;
+  z-index: 999; }
+
 .nav-toggle, nav .nav-toggle-close, .modal-load-cart .cart-toggle-close {
   position: fixed;
   top: 15px;
@@ -46,13 +52,19 @@ nav ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  line-height: 50px; }
+  line-height: 50px;
+  width: 100%;
+  background-color: #222222; }
   nav ul li {
     display: block;
     text-align: center; }
     nav ul li a {
       color: #999999;
       font-size: 24px; }
+  nav ul .brand {
+    text-align: center; }
+    nav ul .brand img {
+      display: initial; }
 nav .nav-toggle-close a i {
   color: #999999; }
 
