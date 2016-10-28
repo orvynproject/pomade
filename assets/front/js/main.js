@@ -1,9 +1,4 @@
 $(function() {
-	//---PRELOAD---
-	$(window).on('load', function() {
-		$('.preload').fadeOut();
-	});
-
 	//---NAVBAR---
 	$('.nav-toggle > a').click(function(event) {
 		event.preventDefault();
@@ -39,3 +34,8 @@ function loadCart() {
 	$('#modal-product-detail').modal('hide');
 	$('#modal-load-cart').modal('show');
 }
+
+//---PRELOAD---
+$(window).on('load', function() {
+	$('.preload').fadeOut();
+});
