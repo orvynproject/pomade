@@ -28,12 +28,6 @@ $(function() {
 		itemsDesktopSmall : [979,3]
 	});
 
-	//---PAGINATION---
-	$('#paginate').easyPaginate({
-		paginateElement: '.scroll',
-	    elementsPerPage: 6,
-	    effect: 'fade'
-	});
 });
 
 function loadCart() {
