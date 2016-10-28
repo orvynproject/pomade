@@ -108,8 +108,8 @@
 					<div class="col-sm-9">
 						<h4><b>Product</b></h4>
 						<hr>
-						<div class="row">
-							<div class="col-sm-6 col-md-4">
+						<div class="row" id="paginate">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/1.jpg);">
@@ -128,7 +128,7 @@
 									</button>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/2.jpg);">
@@ -147,7 +147,7 @@
 									</button>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/3.jpg);">
@@ -167,7 +167,7 @@
 								</div>
 							</div>
 
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/4.jpg);">
@@ -186,7 +186,7 @@
 									</button>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/5.jpg);">
@@ -205,10 +205,68 @@
 									</button>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 scroll">
 								<div class="thumbnail">
 									<a data-toggle="modal" href='#modal-product-detail'>
 										<div class="img" style="background-image: url(images/product/6.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 scroll">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/2.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 scroll">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/3.jpg);">
+											<div class="meta">
+												<p>Disc: 10%</p>
+											</div>
+										</div>
+										<div class="caption">
+											<b>American Gentleman Soap Co Pomade Heavy</b><br>
+											<s>IDR 156,000</s>
+											<p>IDR 150,000</p>
+										</div>
+									</a>
+									<button onclick="loadCart()" class="btn btn-lg btn-flat btn-default btn-block black-themes">
+										<i class="fa fa-shopping-cart"></i> Buy
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4 scroll">
+								<div class="thumbnail">
+									<a data-toggle="modal" href='#modal-product-detail'>
+										<div class="img" style="background-image: url(images/product/1.jpg);">
 											<div class="meta">
 												<p>Disc: 10%</p>
 											</div>
@@ -364,6 +422,7 @@
 		<script src="assets/front/plugins/jquery/dist/jquery.min.js"></script>
 		<script src="assets/front/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="assets/front/plugins/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/front/plugins/jquery/dist/jquery.easyPaginate.js"></script>
 		<script src="assets/front/js/main.js"></script>
 	</body>
 </html>

@@ -273,6 +273,17 @@ section#member .table tr {
   .nav-pills li.active a:focus, .nav-pills li.active a:hover {
     background-color: #000000; }
 
+#paginate {
+  width: 100%; }
+
+.easyPaginateNav a {
+  margin: 10px; }
+  .easyPaginateNav a:focus, .easyPaginateNav a:hover {
+    color: #000000; }
+.easyPaginateNav .current {
+  color: #000000;
+  font-weight: bold; }
+
 .btn-flat {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

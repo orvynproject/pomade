@@ -27,6 +27,13 @@ $(function() {
 		itemsDesktop : [1199,4],
 		itemsDesktopSmall : [979,3]
 	});
+
+	//---PAGINATION---
+	$('#paginate').easyPaginate({
+		paginateElement: '.scroll',
+	    elementsPerPage: 6,
+	    effect: 'fade'
+	});
 });
 
 function loadCart() {

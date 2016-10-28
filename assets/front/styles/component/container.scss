@@ -204,3 +204,20 @@ section#member {
 		}
 	}
 }
+
+#paginate {
+	width: 100%;
+}
+.easyPaginateNav {
+	a {
+		margin: 10px;
+		&:focus,
+		&:hover {
+			color: $black;
+		}
+	}
+	.current {
+		color: $black;
+		font-weight: bold;
+	}
+}
