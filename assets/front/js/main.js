@@ -1,4 +1,9 @@
 $(function() {
+	//---PRELOAD---
+	$(window).on('load', function() {
+		$('.preload').fadeOut();
+	});
+
 	//---NAVBAR---
 	$('.nav-toggle > a').click(function(event) {
 		event.preventDefault();
